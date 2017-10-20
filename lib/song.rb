@@ -38,7 +38,7 @@ class Song
     hash = {}
     self.artists.each do |artist|
       hash[artist] = @@artists.count(artist)
-    end 
+    end
     hash
   end
 end
